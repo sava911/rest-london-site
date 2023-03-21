@@ -1,0 +1,33 @@
+{
+  "name": "rest-london-site",
+  "version": "1.0.0",
+  "description": "site html css js and wp php gulp sass",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sava911/shopHtmlSiteMarco.git"
+  },
+  "keywords": [],
+  "author": "Sava911",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sava911/shopHtmlSiteMarco/issues"
+  },
+  "homepage": "https://sava911.github.io/rest-london-site/",
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "jquery": "^3.6.1",
+    "sass": "^1.56.1"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
