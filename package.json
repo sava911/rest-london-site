@@ -6,16 +6,9 @@
   "scripts": {
     "deploy": "gh-pages -d dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sava911/shopHtmlSiteMarco.git"
-  },
   "keywords": [],
   "author": "Sava911",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sava911/shopHtmlSiteMarco/issues"
-  },
   "homepage": "https://sava911.github.io/rest-london-site/",
   "devDependencies": {
     "browser-sync": "^2.27.10",
