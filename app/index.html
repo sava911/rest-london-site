@@ -2,83 +2,171 @@
 <html lang="ru">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.min.css">
-    <title>RIOC london</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Rubik:wght@500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>RICO london</title>
 </head>
 
 <body>
 
-    <header class="header">
+  <header class="header">
 
 
-        <video src="images/video/baner-vd.webm" class="header__video" playsinline autoplay muted loop>
+    <video src="images/video/baner-vd.webm" class="header__video" playsinline autoplay muted loop>
 
-        </video>
-        <nav class="header__nav">
-            <div class="container">
-                <div class="header__nav-inner">
-                    <address>london strite new</address>
-                    <a href="index.html" class="header__logo logo">
-                        <svg width="100" height="25" viewBox="0 0 129 45" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0)">
-                                <path
-                                    d="M128.79 22.1C129.19 33.58 119.08 44.19 106.67 44.1C100.784 43.9948 95.1787 41.5676 91.0747 37.3475C86.9707 33.1274 84.7009 27.4563 84.7599 21.57C84.9999 10.54 94.3799 0 106.73 0C119.08 0 129.14 10.49 128.79 22.1ZM118.57 22.1C118.57 19.7645 117.877 17.4815 116.578 15.5401C115.28 13.5988 113.435 12.0864 111.276 11.1944C109.118 10.3025 106.743 10.0712 104.453 10.5297C102.163 10.9883 100.061 12.1161 98.4119 13.7704C96.7632 15.4246 95.6426 17.5309 95.1918 19.8226C94.741 22.1142 94.9804 24.488 95.8797 26.6434C96.7789 28.7989 98.2976 30.639 100.243 31.9308C102.189 33.2226 104.474 33.9079 106.81 33.9C113.09 33.93 119 28.21 118.57 22.07V22.1Z"
-                                    fill="#fff" />
-                                <path
-                                    d="M10.15 28.0001C10.15 28.3901 10.04 28.7801 10.04 29.1701C10.04 33.5801 10.04 38.0001 10.04 42.4201C10.04 43.7801 9.95 43.8601 8.58 43.8701H1.38C0.22 43.9001 0 43.6801 0 42.5001V1.60011C0 0.490108 0.14 0.360109 1.27 0.350109C5.94 0.350109 10.61 0.250109 15.27 0.350109C17.6333 0.388622 19.9572 0.960899 22.0681 2.02415C24.179 3.0874 26.0223 4.6141 27.46 6.49011C30.46 10.1501 30.73 14.2901 29.97 18.6601C29.4556 21.6394 27.9638 24.3627 25.73 26.4001C25.2157 26.8663 24.6524 27.2753 24.05 27.6201C23.8958 27.6777 23.7582 27.7726 23.6495 27.8961C23.5407 28.0197 23.4642 28.1682 23.4266 28.3284C23.389 28.4887 23.3915 28.6558 23.434 28.8148C23.4765 28.9738 23.5575 29.1199 23.67 29.2401C25.62 32.2401 27.54 35.2401 29.47 38.2401L32.41 42.7601C32.89 43.5101 32.72 43.9101 31.84 43.9101C28.46 43.9101 25.09 43.9101 21.71 43.9101C21.4279 43.8663 21.1579 43.7647 20.9169 43.6115C20.676 43.4583 20.4694 43.257 20.31 43.0201C17.15 38.2601 14.05 33.4701 10.93 28.6801C10.78 28.4601 10.61 28.2501 10.45 28.0301L10.15 28.0001ZM10 15.2901C10 16.5801 10 17.8801 10 19.1701C10 19.9401 10.34 20.2601 11.09 20.2401C12.03 20.2401 12.97 20.1801 13.91 20.2401C14.8679 20.3799 15.8457 20.2597 16.7412 19.892C17.6366 19.5244 18.4168 18.9227 19 18.1501C20.48 16.1501 20.1 12.3401 17.54 11.1501C15.31 10.1501 12.98 10.3501 10.66 10.4201C10.43 10.4201 10.06 11.0301 10.04 11.3701C10 12.7001 10 14.0001 10 15.2901Z"
-                                    fill="#fff" />
-                                <path
-                                    d="M48.7101 22.09C48.5801 14.37 52.0001 8.46004 58.0901 4.00004C61.3717 1.59808 65.305 0.248613 69.3701 0.130036C72.2724 -0.0262328 75.1768 0.397335 77.9137 1.376C80.6505 2.35467 83.1649 3.86882 85.3101 5.83004C86.8301 7.17004 86.8101 7.19004 85.4001 8.60004L80.7201 13.28C79.7201 14.28 79.6101 14.37 78.5701 13.42C76.6415 11.6507 74.1785 10.5741 71.5701 10.36C68.8711 10.0745 66.1609 10.7858 63.9501 12.36C61.5417 13.9811 59.8234 16.441 59.1301 19.26C58.6005 21.4071 58.6823 23.6595 59.3662 25.7625C60.0502 27.8655 61.3089 29.7352 63.0001 31.16C65.1374 32.9691 67.8401 33.9737 70.6401 34C73.3313 34.0567 75.95 33.1245 78.0001 31.38C79.8601 29.81 79.5201 29.76 81.2701 31.5C82.8401 33.05 84.3801 34.64 85.9701 36.17C86.5801 36.77 86.6001 37.17 85.9701 37.81C82.4465 41.3572 77.7731 43.5308 72.7901 43.94C68.5559 44.4421 64.2693 43.6433 60.5001 41.65C53.9101 38 49.8001 32.57 48.7301 25C48.6592 24.0315 48.6525 23.0594 48.7101 22.09V22.09Z"
-                                    fill="#fff" />
-                                <path
-                                    d="M45.4499 22.0001V42.2901C45.4499 43.8801 45.4499 43.9101 43.7899 43.9101H36.9999C35.4999 43.9101 35.4399 43.8501 35.4399 42.3701V10.9401C35.4399 7.8501 35.4399 4.7601 35.4399 1.6701C35.4399 0.480098 35.5699 0.360098 36.7399 0.350098H44.1299C45.4199 0.350098 45.4699 0.400098 45.4699 1.6701C45.4699 8.46343 45.4633 15.2401 45.4499 22.0001Z"
-                                    fill="#fff" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0">
-                                    <rect width="128.8" height="44.12" fill="black" />
-                                </clipPath>
-                            </defs>
-                        </svg>
+    </video>
+    <nav class="header__nav">
+      <div class="container">
+        <div class="header__nav-inner">
+          <address>london strite new</address>
+          <a href="index.html" class="header__logo logo">
+            <svg width="100" height="25" viewBox="0 0 129 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0)">
+                <path
+                  d="M128.79 22.1C129.19 33.58 119.08 44.19 106.67 44.1C100.784 43.9948 95.1787 41.5676 91.0747 37.3475C86.9707 33.1274 84.7009 27.4563 84.7599 21.57C84.9999 10.54 94.3799 0 106.73 0C119.08 0 129.14 10.49 128.79 22.1ZM118.57 22.1C118.57 19.7645 117.877 17.4815 116.578 15.5401C115.28 13.5988 113.435 12.0864 111.276 11.1944C109.118 10.3025 106.743 10.0712 104.453 10.5297C102.163 10.9883 100.061 12.1161 98.4119 13.7704C96.7632 15.4246 95.6426 17.5309 95.1918 19.8226C94.741 22.1142 94.9804 24.488 95.8797 26.6434C96.7789 28.7989 98.2976 30.639 100.243 31.9308C102.189 33.2226 104.474 33.9079 106.81 33.9C113.09 33.93 119 28.21 118.57 22.07V22.1Z"
+                  fill="#fff" />
+                <path
+                  d="M10.15 28.0001C10.15 28.3901 10.04 28.7801 10.04 29.1701C10.04 33.5801 10.04 38.0001 10.04 42.4201C10.04 43.7801 9.95 43.8601 8.58 43.8701H1.38C0.22 43.9001 0 43.6801 0 42.5001V1.60011C0 0.490108 0.14 0.360109 1.27 0.350109C5.94 0.350109 10.61 0.250109 15.27 0.350109C17.6333 0.388622 19.9572 0.960899 22.0681 2.02415C24.179 3.0874 26.0223 4.6141 27.46 6.49011C30.46 10.1501 30.73 14.2901 29.97 18.6601C29.4556 21.6394 27.9638 24.3627 25.73 26.4001C25.2157 26.8663 24.6524 27.2753 24.05 27.6201C23.8958 27.6777 23.7582 27.7726 23.6495 27.8961C23.5407 28.0197 23.4642 28.1682 23.4266 28.3284C23.389 28.4887 23.3915 28.6558 23.434 28.8148C23.4765 28.9738 23.5575 29.1199 23.67 29.2401C25.62 32.2401 27.54 35.2401 29.47 38.2401L32.41 42.7601C32.89 43.5101 32.72 43.9101 31.84 43.9101C28.46 43.9101 25.09 43.9101 21.71 43.9101C21.4279 43.8663 21.1579 43.7647 20.9169 43.6115C20.676 43.4583 20.4694 43.257 20.31 43.0201C17.15 38.2601 14.05 33.4701 10.93 28.6801C10.78 28.4601 10.61 28.2501 10.45 28.0301L10.15 28.0001ZM10 15.2901C10 16.5801 10 17.8801 10 19.1701C10 19.9401 10.34 20.2601 11.09 20.2401C12.03 20.2401 12.97 20.1801 13.91 20.2401C14.8679 20.3799 15.8457 20.2597 16.7412 19.892C17.6366 19.5244 18.4168 18.9227 19 18.1501C20.48 16.1501 20.1 12.3401 17.54 11.1501C15.31 10.1501 12.98 10.3501 10.66 10.4201C10.43 10.4201 10.06 11.0301 10.04 11.3701C10 12.7001 10 14.0001 10 15.2901Z"
+                  fill="#fff" />
+                <path
+                  d="M48.7101 22.09C48.5801 14.37 52.0001 8.46004 58.0901 4.00004C61.3717 1.59808 65.305 0.248613 69.3701 0.130036C72.2724 -0.0262328 75.1768 0.397335 77.9137 1.376C80.6505 2.35467 83.1649 3.86882 85.3101 5.83004C86.8301 7.17004 86.8101 7.19004 85.4001 8.60004L80.7201 13.28C79.7201 14.28 79.6101 14.37 78.5701 13.42C76.6415 11.6507 74.1785 10.5741 71.5701 10.36C68.8711 10.0745 66.1609 10.7858 63.9501 12.36C61.5417 13.9811 59.8234 16.441 59.1301 19.26C58.6005 21.4071 58.6823 23.6595 59.3662 25.7625C60.0502 27.8655 61.3089 29.7352 63.0001 31.16C65.1374 32.9691 67.8401 33.9737 70.6401 34C73.3313 34.0567 75.95 33.1245 78.0001 31.38C79.8601 29.81 79.5201 29.76 81.2701 31.5C82.8401 33.05 84.3801 34.64 85.9701 36.17C86.5801 36.77 86.6001 37.17 85.9701 37.81C82.4465 41.3572 77.7731 43.5308 72.7901 43.94C68.5559 44.4421 64.2693 43.6433 60.5001 41.65C53.9101 38 49.8001 32.57 48.7301 25C48.6592 24.0315 48.6525 23.0594 48.7101 22.09V22.09Z"
+                  fill="#fff" />
+                <path
+                  d="M45.4499 22.0001V42.2901C45.4499 43.8801 45.4499 43.9101 43.7899 43.9101H36.9999C35.4999 43.9101 35.4399 43.8501 35.4399 42.3701V10.9401C35.4399 7.8501 35.4399 4.7601 35.4399 1.6701C35.4399 0.480098 35.5699 0.360098 36.7399 0.350098H44.1299C45.4199 0.350098 45.4699 0.400098 45.4699 1.6701C45.4699 8.46343 45.4633 15.2401 45.4499 22.0001Z"
+                  fill="#fff" />
+              </g>
+              <defs>
+                <clipPath id="clip0">
+                  <rect width="128.8" height="44.12" fill="black" />
+                </clipPath>
+              </defs>
+            </svg>
 
-                    </a>
-                    <ul class="header__menu-list">
-                        <li><a href="" herf="#">Home</a></li>
-                        <li><a href="" herf="#">Sale</a></li>
-                        <li><a href="" herf="#">MSp</a></li>
-                        <li><a href="" herf="#">Foot</a></li>
+          </a>
+          <ul class="header__menu-list">
+            <li><a href="" herf="#">Home</a></li>
+            <li><a href="" herf="#">Projects</a></li>
+            <li><a href="" herf="#">News</a></li>
+            <li><a href="" herf="#">Gallery</a></li>
+            <li><a href="" herf="#">Blogs</a></li>
 
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <div class="header__bottom">
-            <h1 class="header__title">SAIL INTO A
-                SPRING GETAWAY </h1>
-            <button class="header__btn btn">Write to us</button>
+          </ul>
         </div>
-    </header>
-    <main class="main">
-        <section class="advanced">
-            <h2 class="advanced__title">A World in Bloom</h2>
-            <p class="advanced__text">Pick a travel adenture this spring and savour the seasonal charms</p>
-            <div class="advanced__items">
-                <div class="advanced__item">
-                    <img src="images/lrs-lei-activity01.avif" alt="">
-                    <b class="advanced__item-text">Dawn light on the</b>
-                    <h3 class="advanced__item-title">Mallorca coast</h3>
-                    <p class="advanced__item-text">Dawn light on the</p>
-                </div>
+      </div>
+    </nav>
+    <div class="header__bottom">
+      <h2 class="header__title">SAIL INTO A
+        SPRING GETAWAY </h2>
+      <button class="header__btn btn">Write to us</button>
+    </div>
+  </header>
+  <main class="main">
+    <section class="advanced">
+      <div class="container">
+        <h1 class="advanced__title title">OUR PROJECTS</h1>
+        <p class="advanced__text">Pick a travel adenture this spring and savour the seasonal charms</p>
+        <div class="advanced__items">
+          <a href="#" class="advanced__item">
+            <img src="images/bg-botanica.png" alt="">
+            <b class="advanced__item-subtext">Dawn light on the</b>
+            <h3 class="advanced__item-title title-item">Rico botanica</h3>
+            <button class="advanced__item-btn">
+              See more
+            </button>
+          </a>
+
+          <a class="advanced__item">
+            <img src="images/bg-fish.webp" alt="">
+            <b class="advanced__item-subtext">Dawn light on the</b>
+            <h3 class="advanced__item-title title-item">Rico seafood</h3>
+            <button class="advanced__item-btn">
+              See more
+            </button>
+          </a>
+          <a class="advanced__item">
+            <img src="images/bg-meat.jpg" alt="">
+            <b class="advanced__item-subtext">Dawn light on the</b>
+            <h3 class="advanced__item-title title-item">Rico Meat</h3>
+            <button class="advanced__item-btn">
+              See more
+
+            </button>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="news">
+      <div class="container">
+        <h2 class="news__title title">NEW FROM Rico</h2>
+        <div class="news-fade">
+
+          <div class="news-fade__item">
+            <div class="news-fade__item-inner">
+              <div class="news-fade__info">
+                <b class="news-fade__subtitle">Rico Meat</b>
+                <h3 class="news-fade__title title-item">Good big london meat</h3>
+                <p class=" news-fade__text">From May 2024, step into the Royal Scotsman`s unique luxury accommodations
+                  and take your cinematic adventure to new
+                  heights of indulgence.</p>
+                <p class="news-fade__text">From May 2024, step into the Royal Scotsman`s unique luxury accommodations
+                  and take your cinematic adventure to new
+                  heights of indulgence.</p>
+
+                <a href="#" class="news-fade__link">Learn more</a>
+              </div>
+              <img src="images/edward-howell-vvUy1hWVYEA-unsplash.jpg" alt="">
+
             </div>
-        </section>
-    </main>
-    <footer>footer</footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script src="js/main.min.js"></script>
+          </div>
+          <div class="news-fade__item">
+            <div class="news-fade__item-inner">
+              <div class="news-fade__info">
+                <b class="news-fade__subtitle">Rico botanica</b>
+                <h3 class="news-fade__title title-item">Discover New Grand Suites</h3>
+                <p class=" news-fade__text">From May 2024, step into the Royal Scotsman`s unique luxury accommodations
+                  and take your cinematic adventure to new
+                  heights of indulgence.</p>
+                <p class="news-fade__text">From May 2024, step into the Royal Scotsman`s unique luxury accommodations
+                  and take your cinematic adventure to new
+                  heights of indulgence.</p>
+
+                <a href="#" class="news-fade__link">Learn more</a>
+              </div>
+              <img src="images/lrs-lei-activity01.avif" alt="">
+            </div>
+          </div>
+          <div class="news-fade__item">
+            <div class="news-fade__item-inner">
+              <div class="news-fade__info">
+                <b class="news-fade__subtitle">mauka</b>
+                <h3 class="news-fade__title title-item">seafood</h3>
+                <p class="news-fade__text">From May 2024, step into the Royal Scotsman`s unique luxury accommodations
+                  and take your cinematic adventure to new
+                  heights of indulgence.</p>
+                <p class="news-fade__text">From May 2024, step into the Royal Scotsman`s unique luxury accommodations
+                  and take your cinematic adventure to new
+                  heights of indulgence.</p>
+
+                <a href="#" class="news-fade__link">Learn more</a>
+              </div>
+              <img src="images/slider-1.avif" alt="">
+            </div>
+          </div>
+
+        </div>
+
+    </section>
+  </main>
+  <footer>footer</footer>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+  <script src="js/main.min.js"></script>
 </body>
 
 </html>
