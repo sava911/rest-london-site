@@ -63,5 +63,59 @@ $(function () {
     }).addClass("prev");;
   }
 
+  // blogs slider
+  $('.slider').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: true,
+    dots: false,
+    centerMode: true,
+    variableWidth: true,
+    infinite: true,
+    focusOnSelect: true,
+    cssEase: 'linear',
+    touchMove: true,
+    prevArrow: '<button class="slick-prev"> < </button>',
+    nextArrow: '<button class="slick-next"> > </button>',
+
+    //         responsive: [                        
+    //             {
+    //               breakpoint: 576,
+    //               settings: {
+    //                 centerMode: false,
+    //                 variableWidth: false,
+    //               }
+    //             },
+    //         ]
+  });
+
+
+  var imgs = $('.slider img');
+  imgs.each(function () {
+    var item = $(this).closest('.item');
+    item.css({
+      'background-image': 'url(' + $(this).attr('src') + ')',
+      'background-position': 'center',
+      '-webkit-background-size': 'cover',
+      'background-size': 'cover',
+    });
+    $(this).hide();
+  });
+
+  // uPTop
+  $('.back-to-top').click(function () {
+    $('body,html').animate({scrollTop: 0}, 800); // 800 - Скорость анимации
+  });
+
+  $(window).scroll(function () { // Отслеживаем начало прокрутки
+    let scrolled = $(window).scrollTop(); // Вычисляем сколько было прокручено.
+
+    if (scrolled > 350) { // Если высота прокрутки больше 350 - показываем кнопку
+      $('.back-to-top').addClass('active');
+    } else {
+      $('.back-to-top').removeClass('active');
+    }
+  });
+
 
 })

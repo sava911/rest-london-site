@@ -110,7 +110,16 @@ main {
   margin: 0 auto;
 }
 
-.btn {}
+.btn {
+  padding: 10px 35px;
+  border: 1px solid $black;
+  border-radius: 5px;
+
+  &:hover,
+  &:focus {
+    background: $green;
+  }
+}
 
 .title {
   text-transform: uppercase;

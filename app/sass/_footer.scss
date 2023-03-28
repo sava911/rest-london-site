@@ -1,0 +1,43 @@
+.footer {
+  border-top: 1px solid $black;
+  padding: 20px 0;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__top-item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__top-icons {
+
+    li {
+      display: inline-block;
+
+      margin-left: 20px;
+    }
+  }
+
+  &__top-mail {}
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+  }
+
+  &__bottom-item {
+    font-size: 14px;
+    max-width: 700px;
+    opacity: 0.6;
+
+  }
+
+  &__bottom-link {
+    text-decoration: underline;
+  }
+}
