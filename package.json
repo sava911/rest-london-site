@@ -1,6 +1,6 @@
 {
   "name": "rest-london-site",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "site html css js and wp php gulp sass",
   "main": "index.js",
   "scripts": {

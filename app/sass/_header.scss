@@ -1,11 +1,9 @@
 .header {
   position: relative;
 
-  .navbar {
-    display: none;
-  }
 
-  &__video,
+
+
   &__img {
     // position: absolute;
     z-index: 0;
@@ -34,6 +32,8 @@
     border-bottom: 0.1rem solid transparent;
     padding: 25px 0;
     font-size: 25px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+
 
     &:hover {
       color: #000;
@@ -52,6 +52,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
+
 
   }
 
@@ -111,5 +112,5 @@
   position: absolute;
   left: 47%;
   right: 53%;
-  top: 10px;
+  top: 2px;
 }

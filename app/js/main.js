@@ -49,8 +49,18 @@ $(function () {
       centerMode: true,
       variableWidth: true,
       dots: true,
-      // autoplay: true,
+      autoplay: true,
       slidesToShow: 1,
+      responsive: [
+        {
+          breakpoint: 576,
+          settings: {
+            centerMode: false,
+            variableWidth: false,
+            arrows: false
+          }
+        },
+      ]
 
 
     });
@@ -121,6 +131,18 @@ $(function () {
       $('.back-to-top').removeClass('active');
     }
   });
+
+  // Hamburger menu
+  (function () {
+    $('.hamburger-wrapper').on('click', function () {
+      $('.hamburger-menu').toggleClass('animate');
+      $('.mobile-menu-overlay').toggleClass('visible');
+    })
+    $('.mobile-menu-overlay > ul > li > a').on('click', function () {
+      $('.hamburger-menu').removeClass('animate');
+      $('.mobile-menu-overlay').removeClass('visible');
+    })
+  })();
 
 
 })

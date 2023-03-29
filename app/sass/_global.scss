@@ -70,11 +70,7 @@ p {
   margin: 0;
 }
 
-figure {
-  all: unset;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-}
+
 
 input {
   all: unset;
@@ -122,6 +118,7 @@ main {
   padding: 10px 35px;
   border: 1px solid $black;
   border-radius: 5px;
+  text-align: center;
 
   &:hover,
   &:focus {
