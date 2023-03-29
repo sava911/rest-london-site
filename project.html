@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Rubik:wght@500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>RICO london</title>
+</head>
+
+<body>
+
+  <header class="header">
+
+
+    <img src="images/banner-botanical.jpg" class="header__img" alt="banner">
+
+
+    <nav class="header__nav">
+      <div class="container">
+        <div class="header__nav-inner">
+          <button class="btn">CONTACT US</button>
+          <a href="index.html" class="header__logo logo">
+            <svg width="100" height="25" viewBox="0 0 129 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0)">
+                <path
+                  d="M128.79 22.1C129.19 33.58 119.08 44.19 106.67 44.1C100.784 43.9948 95.1787 41.5676 91.0747 37.3475C86.9707 33.1274 84.7009 27.4563 84.7599 21.57C84.9999 10.54 94.3799 0 106.73 0C119.08 0 129.14 10.49 128.79 22.1ZM118.57 22.1C118.57 19.7645 117.877 17.4815 116.578 15.5401C115.28 13.5988 113.435 12.0864 111.276 11.1944C109.118 10.3025 106.743 10.0712 104.453 10.5297C102.163 10.9883 100.061 12.1161 98.4119 13.7704C96.7632 15.4246 95.6426 17.5309 95.1918 19.8226C94.741 22.1142 94.9804 24.488 95.8797 26.6434C96.7789 28.7989 98.2976 30.639 100.243 31.9308C102.189 33.2226 104.474 33.9079 106.81 33.9C113.09 33.93 119 28.21 118.57 22.07V22.1Z"
+                  fill="#fff" />
+                <path
+                  d="M10.15 28.0001C10.15 28.3901 10.04 28.7801 10.04 29.1701C10.04 33.5801 10.04 38.0001 10.04 42.4201C10.04 43.7801 9.95 43.8601 8.58 43.8701H1.38C0.22 43.9001 0 43.6801 0 42.5001V1.60011C0 0.490108 0.14 0.360109 1.27 0.350109C5.94 0.350109 10.61 0.250109 15.27 0.350109C17.6333 0.388622 19.9572 0.960899 22.0681 2.02415C24.179 3.0874 26.0223 4.6141 27.46 6.49011C30.46 10.1501 30.73 14.2901 29.97 18.6601C29.4556 21.6394 27.9638 24.3627 25.73 26.4001C25.2157 26.8663 24.6524 27.2753 24.05 27.6201C23.8958 27.6777 23.7582 27.7726 23.6495 27.8961C23.5407 28.0197 23.4642 28.1682 23.4266 28.3284C23.389 28.4887 23.3915 28.6558 23.434 28.8148C23.4765 28.9738 23.5575 29.1199 23.67 29.2401C25.62 32.2401 27.54 35.2401 29.47 38.2401L32.41 42.7601C32.89 43.5101 32.72 43.9101 31.84 43.9101C28.46 43.9101 25.09 43.9101 21.71 43.9101C21.4279 43.8663 21.1579 43.7647 20.9169 43.6115C20.676 43.4583 20.4694 43.257 20.31 43.0201C17.15 38.2601 14.05 33.4701 10.93 28.6801C10.78 28.4601 10.61 28.2501 10.45 28.0301L10.15 28.0001ZM10 15.2901C10 16.5801 10 17.8801 10 19.1701C10 19.9401 10.34 20.2601 11.09 20.2401C12.03 20.2401 12.97 20.1801 13.91 20.2401C14.8679 20.3799 15.8457 20.2597 16.7412 19.892C17.6366 19.5244 18.4168 18.9227 19 18.1501C20.48 16.1501 20.1 12.3401 17.54 11.1501C15.31 10.1501 12.98 10.3501 10.66 10.4201C10.43 10.4201 10.06 11.0301 10.04 11.3701C10 12.7001 10 14.0001 10 15.2901Z"
+                  fill="#fff" />
+                <path
+                  d="M48.7101 22.09C48.5801 14.37 52.0001 8.46004 58.0901 4.00004C61.3717 1.59808 65.305 0.248613 69.3701 0.130036C72.2724 -0.0262328 75.1768 0.397335 77.9137 1.376C80.6505 2.35467 83.1649 3.86882 85.3101 5.83004C86.8301 7.17004 86.8101 7.19004 85.4001 8.60004L80.7201 13.28C79.7201 14.28 79.6101 14.37 78.5701 13.42C76.6415 11.6507 74.1785 10.5741 71.5701 10.36C68.8711 10.0745 66.1609 10.7858 63.9501 12.36C61.5417 13.9811 59.8234 16.441 59.1301 19.26C58.6005 21.4071 58.6823 23.6595 59.3662 25.7625C60.0502 27.8655 61.3089 29.7352 63.0001 31.16C65.1374 32.9691 67.8401 33.9737 70.6401 34C73.3313 34.0567 75.95 33.1245 78.0001 31.38C79.8601 29.81 79.5201 29.76 81.2701 31.5C82.8401 33.05 84.3801 34.64 85.9701 36.17C86.5801 36.77 86.6001 37.17 85.9701 37.81C82.4465 41.3572 77.7731 43.5308 72.7901 43.94C68.5559 44.4421 64.2693 43.6433 60.5001 41.65C53.9101 38 49.8001 32.57 48.7301 25C48.6592 24.0315 48.6525 23.0594 48.7101 22.09V22.09Z"
+                  fill="#fff" />
+                <path
+                  d="M45.4499 22.0001V42.2901C45.4499 43.8801 45.4499 43.9101 43.7899 43.9101H36.9999C35.4999 43.9101 35.4399 43.8501 35.4399 42.3701V10.9401C35.4399 7.8501 35.4399 4.7601 35.4399 1.6701C35.4399 0.480098 35.5699 0.360098 36.7399 0.350098H44.1299C45.4199 0.350098 45.4699 0.400098 45.4699 1.6701C45.4699 8.46343 45.4633 15.2401 45.4499 22.0001Z"
+                  fill="#fff" />
+              </g>
+              <defs>
+                <clipPath id="clip0">
+                  <rect width="128.8" height="44.12" fill="black" />
+                </clipPath>
+              </defs>
+            </svg>
+
+          </a>
+          <ul class="header__menu-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#advanced">Rico botanica</a></li>
+            <li><a href="#advanced">Rico seafood</a></li>
+            <li><a href="#news">Rico meat</a></li>
+            <!-- <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#blogs">Blogs</a></li> -->
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="header__bottom">
+      <b class="header__title">RICO GROUP PRESENT </b>
+      <h1 class="header__title">BOTANICA</h1>
+      <p class="header__text"></p>
+      <a href="#summary" class="header__btn btn">FARM-TO-TABLE</a>
+    </div>
+  </header>
+  <!-- end header -->
+  <main class="main">
+    <section id="summary" class="summary">
+      <div class="container">
+        <div class="summary__inner">
+          <div class="summary__items">
+            <div class="summary__item">
+              <h2 class="summary__title">SUMMARY</h2>
+              <p class="summary__text">RICO GROUP
+                Botanica, a fast
+                casual farm- to-table cafe.
+                Our entire concept is built
+                around the purveyance
+                o f fresh, local, sustainable food
+                options.
+                The fabric of the restaurant is woven out of the individual
+                efforts of the entrepreneurs in our supply chain who treat their
+                businesses with the utmost
+                pride a
+                nd
+                care.
+                We seek to offer a food journey built on fresh whole ingredients and an appreciation for each
+                product. We then offer the opportunity to depart from the can
+                on an
+                dm
+                eet
+                new
+                styles, flavours, and techniques which complement
+                and
+                enhance those products.</p>
+
+            </div>
+            <div class="summary__item">
+              <img src="images/projects/botanica/waiters.jpg" alt="summary__item">
+            </div>
+            <!-- end summary__item -->
+            <div class="summary__item">
+              <img src="images/projects/botanica/picnic.jpg" alt="summary__item">
+            </div>
+            <div class="summary__item">
+              <h2 class="summary__title">FOCUS ON INGREDEINTS</h2>
+              <p class="summary__text">We have long studied the science of food, where
+                The products we serve are
+                proud
+                ambassadors of their
+                geographic
+                origins; they inspire confidence in our menu and demonstrate in
+                the seriousness of our intent. There are s o m e
+                ingredients in our grocery arsenal that are sold
+                exclusively through auctions and pre-purchased slots.
+                We have nothing to offer guests but good food and
+                wine.
+                even the ingredients certain
+                wa
+                y
+                tastes; each part of our preparation considers how
+                to best enhance flavors
+                and bring the maximum nutritional benefits into our
+                bodies.</p>
+              <p class="summary__text">
+                The products we serve are
+                proud
+                ambassadors of their
+                geographic
+                origins; they inspire confidence in our menu and demonstrate in
+                the seriousness of our intent. There are s o m e
+                ingredients in our grocery arsenal that are sold
+                exclusively through auctions and pre-purchased slots.
+                We have nothing to offer guests but good food and
+                wine.
+              </p>
+
+            </div>
+          </div>
+          <!-- end summary__items -->
+
+        </div>
+      </div>
+    </section>
+    <!-- end summary -->
+
+
+
+    <section class="proposition">
+      <div class="container">
+        <h2 class="proposition__title">VALUE PROPOSITION</h2>
+        <p class="proposition__text">Botanica seeks to democratise the farm-to-table movement by opening a fast-casual
+          restaurant that offer relatively
+          affordable locally
+          sourced food.</p>
+        <p class="proposition__text">Botanica's menu will be in a
+          quick service format. Food
+          can be taken away or served as a full meal at the table. We will keep the existing cafe's price policy. Our
+          aim will be
+          to optimise costs
+          to stay affordable to every visitor.</p>
+        <p class="proposition__text">Botanica will become a n attractive place for casual a n d business meetings a n d
+          a n educational site for younger
+          visitors.</p>
+      </div>
+    </section>
+    <!-- end proposition -->
+    <div class="delimiter" style="  background-image: url('images/projects/botanica/ras-2.jpg');">
+    </div>
+    <!-- end delimiter -->
+
+    <section class="summary">
+      <div class="container">
+        <div class="summary__inner">
+          <div class="summary__items">
+            <div class="summary__item">
+              <h2 class="summary__title">SOCIAL VALUE</h2>
+              <p class="summary__text">Farm-to-table concept will support
+                locally grown produce. Botanica's farm-to-table concept sits concurrently with changes in attitudes
+                about food
+                approach to Sustainability.
+                food
+                syste
+                m.
+                food freshness, food
+                seasonality,
+                and small-farm economics.</p>
+              <p class="summary__text">We cite the scarcity of
+                fresh, local ingredients; the poor flavour of ingredients shipped from afar; the
+                poor nutritional integrity of shipped ingredients; the disappearance of small
+                family
+                farms; the disappearance of heirloom and open-pollinated fruits and
+                vegetables; and the dangers of a highly centralised food growing and
+                distribution system a s motivators for our decision to adopt a more locavore
+                the
+                While
+                vegetarian, our predominantly plant- based menu aims for a reduced carbon
+                footprint while promoting health &
+                wellness
+                through
+                nutrition.</p>
+              <p class="summary__text">Educational component for the younger
+                audience (schools). We would like to s u g g e s t growing whatever agriculture
+                the park allows. We would like offer an
+                educational element Where,
+                as
+                examples, school groups can learn about sustainable local food systems or
+                gardening enthusiasts can meet and share their interests in h o m e grown
+                foods.</p>
+
+            </div>
+            <div class="summary__item">
+              <img src="images/projects/botanica/soc-1.jpg" alt="summary__item">
+            </div>
+            <!-- end summary__item -->
+            <div class="summary__item">
+              <img src="images/projects/botanica/soc-2.jpg" alt="summary__item">
+            </div>
+            <div class="summary__item">
+              <h2 class="summary__title">SOCIAL VALUE</h2>
+
+              <p class="summary__text">
+                Attractive location for business
+                meetings. The proximity to both Holland park and Kensington areas allows Botanica to become a great
+                place for business
+                meetings over
+                breakfast and lunch during the week.
+                The quick service format along with the delicious food is a key to a
+                successful meeting!
+                Perfect spot for weekend brunches
+                with families and friends. At weekends and bank holidays - Botanica will be a
+                perfect spot for brunches with friends
+                and families. Quality food is a great
+                way to bring people together.
+                New job opportunities. Botanica will become a
+                desirable
+                place
+                to work. We position ourselves a s an ethical
+                business, where everyone is valued - staff and guests. We aim to create a
+                SOCIAL VALUE
+                wide
+                range of employment
+                opportunities, from experienced to up-and-coming employees.
+              </p>
+
+            </div>
+          </div>
+          <!-- end summary__items -->
+
+        </div>
+      </div>
+    </section>
+    <!-- end summary -->
+    <section id="blogs" class="blogs">
+      <div class="wrap" style="background: url('images/projects/botanica/fon.jpg') center no-repeat;">
+        <h2 class="blogs__title title">PEOPLE MATTER</h2>
+        <p class="blogs__text">We position ourselvesasan
+          ethical business, where everyone is
+          valued - staff and guests.
+          We aim to create a
+          wide range of emplovment
+          opportunities, from experienced to up
+          and coming chefs</p>
+
+        <div class="slider">
+
+          <div class="item">
+            <img src="images/projects/botanica/bg-pepl.jpg" alt="">
+
+          </div>
+          <div class="item">
+            <img src="images/bl-2.jpg" alt="">
+          </div>
+          <div class="item">
+            <img src="images/bl-3.jpg" alt="">
+
+          </div>
+          <div class="item">
+            <img src="images/bl-4.jpg" alt="">
+
+          </div>
+          <div class="item">
+            <img src="images/bl-5.jpg" alt="">
+
+          </div>
+          <div class="item">
+            <img src="images/bl-6.jpg" alt="">
+
+          </div>
+          <div class="item">
+            <img
+              src="https://images.unsplash.com/photo-1494253188410-ff0cdea5499e?dpr=1&auto=format&fit=crop&w=568&h=379&q=60&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
+              alt="">
+          </div>
+          <div class="item">
+            <img
+              src="https://images.unsplash.com/photo-1511965682784-5ec68f744ea1?dpr=1&auto=format&fit=crop&w=568&h=319&q=60&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
+              alt="">
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- ens blogs -->
+    <section class="summary">
+      <div class="container">
+        <div class="summary__inner">
+          <div class="summary__items">
+            <div class="summary__item">
+              <img src="images/projects/botanica/m-1.jpg" alt="summary__item">
+            </div>
+            <div class="summary__item">
+              <img src="images/projects/botanica/m-2.jpg" alt="summary__item">
+            </div>
+            <!-- end summary__item -->
+            <div class="summary__item">
+              <img src="images/projects/botanica/m-3.jpg" alt="summary__item">
+            </div>
+            <div class="summary__item summary__item-menu">
+              <h2 class="summary__title">Menu</h2>
+
+              <p class="summary__text">
+                Our menu
+                takes
+                a 'flexitarian'
+                approach, that is it promotes an increased intake of
+                plant-based foods without completely
+                eliminating meat. Our offerings will centre on fresh ingredients prepared for widely
+                accessible fast casual dishes. We will aim to feature seasonal offerings.
+
+
+
+
+              </p>
+              <ul>
+
+
+                Some menu examples may include:
+                <li>SeasonalSalad £10</li>
+                <li>
+                  Shakshuka £10
+                </li>
+                <li>
+                  Spicy grilled paneer wrap £ 8
+
+                </li>
+                <li>
+                  Mixed grilled vegetables with tahini £ 8
+
+                </li>
+                <li>
+                  Lambstew £12
+
+                </li>
+                <li>Millefeuille £ 6</li>
+                <li>
+                  Crepe £
+                  6
+                </li>
+              </ul>
+
+
+
+            </div>
+          </div>
+          <!-- end summary__items -->
+
+        </div>
+      </div>
+    </section>
+    <!-- end summary -->
+    <div class="delimiter" style="  background-image: url('images/projects/botanica/ras-3.jpg');">
+    </div>
+    <!-- end delimiter -->
+    <section class="summary">
+      <div class="container">
+        <div class="summary__inner">
+          <div class="summary__items">
+
+            <div class="summary__item">
+              <img src="images/projects/botanica/ar-1.jpg" alt="summary__item">
+            </div>
+            <div class="summary__item">
+              <h2 class="summary__title">WHO WE ARE</h2>
+              <h2 class="summary__title">Arusya Gukasyan, Head Chef, Proprietor.</h2>
+
+              <p class="summary__text">
+                Chef Arusya's epicurean journey began in 2009 as magazine
+                editor writing a gastro focused column. She began to gather
+                her r
+                eade
+                rs for co
+                okin
+                g cla
+                sses
+                , and from there was invited to
+                take on catering jobs. As the catering business gathered
+                momentum, she was offered the role of a Concept Chef at a
+                new European-fusion style restaurant in central Moscow
+                (RU). With this backing, she gathered the courage to open
+                her own
+                seafood RICO, in 2013.
+              </p>
+
+            </div>
+          </div>
+          <!-- end summary__items -->
+
+        </div>
+      </div>
+    </section>
+    <!-- end summary -->
+    <section class="proposition">
+      <div class="container">
+        <h2 class="proposition__title">Arusya Gukasyan</h2>
+        <p class="proposition__text">Today, there are two RICO restaurants in central Moscow and one in an affluent
+          nearby suburb. In the last ten years,
+          RICO restaurants have captivated an
+          audience of 7,000+ regular repeating customers. New locations are currently being planned in Luxembourg a n d
+          London.
+          RICO also provides catering services for private jet and boat charters. Chef Arusya's operations have been
+          vertically
+          integrated in collaboration with farmers and fisheries who provide RICO
+          restaurants with the freshest ingredients.</p>
+
+      </div>
+    </section>
+    <!-- end proposition -->
+    <section id="blogs" class="blogs">
+      <div class="wrap">
+        <h2 class="blogs__title title">my life </h2>
+        <p class="blogs__text">TRAVEL, INSPIRATION, FOOD, FAMILY</p>
+
+        <div class="slider">
+
+          <div class="item">
+            <img src="images/bl-1.jpg" alt="">
+            <!-- <div class="item__inner">
+                  <b class="item__subtext">botanica</b>
+                  <h3 class="item__title title-item">France</h3>
+                  <p class="item__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                  <a href="#" class="item__link">more</a>
+                </div> -->
+          </div>
+          <div class="item">
+            <img src="images/bl-2.jpg" alt="">
+          </div>
+          <div class="item">
+            <img src="images/bl-3.jpg" alt="">
+
+          </div>
+          <div class="item">
+            <img src="images/bl-4.jpg" alt="">
+
+          </div>
+          <div class="item">
+            <img src="images/bl-5.jpg" alt="">
+
+          </div>
+          <div class="item">
+            <img src="images/bl-6.jpg" alt="">
+
+          </div>
+          <div class="item">
+            <img
+              src="https://images.unsplash.com/photo-1494253188410-ff0cdea5499e?dpr=1&auto=format&fit=crop&w=568&h=379&q=60&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
+              alt="">
+          </div>
+          <div class="item">
+            <img
+              src="https://images.unsplash.com/photo-1511965682784-5ec68f744ea1?dpr=1&auto=format&fit=crop&w=568&h=319&q=60&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
+              alt="">
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- ens blogs -->
+  </main>
+  <!-- end main -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__top-item">
+          <b>FOLLOW US :</b>
+          <ul class="footer__top-icons">
+            <li><a href="#">
+
+                <svg width="32" height="32" viewBox="0 0 32 32">
+                  <title>instagram</title>
+                  <path
+                    d="M16 2.881c4.275 0 4.781 0.019 6.462 0.094 1.563 0.069 2.406 0.331 2.969 0.55 0.744 0.288 1.281 0.638 1.837 1.194 0.563 0.563 0.906 1.094 1.2 1.838 0.219 0.563 0.481 1.412 0.55 2.969 0.075 1.688 0.094 2.194 0.094 6.463s-0.019 4.781-0.094 6.463c-0.069 1.563-0.331 2.406-0.55 2.969-0.288 0.744-0.637 1.281-1.194 1.837-0.563 0.563-1.094 0.906-1.837 1.2-0.563 0.219-1.413 0.481-2.969 0.55-1.688 0.075-2.194 0.094-6.463 0.094s-4.781-0.019-6.463-0.094c-1.563-0.069-2.406-0.331-2.969-0.55-0.744-0.288-1.281-0.637-1.838-1.194-0.563-0.563-0.906-1.094-1.2-1.837-0.219-0.563-0.481-1.413-0.55-2.969-0.075-1.688-0.094-2.194-0.094-6.463s0.019-4.781 0.094-6.463c0.069-1.563 0.331-2.406 0.55-2.969 0.288-0.744 0.638-1.281 1.194-1.838 0.563-0.563 1.094-0.906 1.838-1.2 0.563-0.219 1.412-0.481 2.969-0.55 1.681-0.075 2.188-0.094 6.463-0.094zM16 0c-4.344 0-4.887 0.019-6.594 0.094-1.7 0.075-2.869 0.35-3.881 0.744-1.056 0.412-1.95 0.956-2.837 1.85-0.894 0.888-1.438 1.781-1.85 2.831-0.394 1.019-0.669 2.181-0.744 3.881-0.075 1.713-0.094 2.256-0.094 6.6s0.019 4.887 0.094 6.594c0.075 1.7 0.35 2.869 0.744 3.881 0.413 1.056 0.956 1.95 1.85 2.837 0.887 0.887 1.781 1.438 2.831 1.844 1.019 0.394 2.181 0.669 3.881 0.744 1.706 0.075 2.25 0.094 6.594 0.094s4.888-0.019 6.594-0.094c1.7-0.075 2.869-0.35 3.881-0.744 1.050-0.406 1.944-0.956 2.831-1.844s1.438-1.781 1.844-2.831c0.394-1.019 0.669-2.181 0.744-3.881 0.075-1.706 0.094-2.25 0.094-6.594s-0.019-4.887-0.094-6.594c-0.075-1.7-0.35-2.869-0.744-3.881-0.394-1.063-0.938-1.956-1.831-2.844-0.887-0.887-1.781-1.438-2.831-1.844-1.019-0.394-2.181-0.669-3.881-0.744-1.712-0.081-2.256-0.1-6.6-0.1v0z">
+                  </path>
+                  <path
+                    d="M16 7.781c-4.537 0-8.219 3.681-8.219 8.219s3.681 8.219 8.219 8.219 8.219-3.681 8.219-8.219c0-4.537-3.681-8.219-8.219-8.219zM16 21.331c-2.944 0-5.331-2.387-5.331-5.331s2.387-5.331 5.331-5.331c2.944 0 5.331 2.387 5.331 5.331s-2.387 5.331-5.331 5.331z">
+                  </path>
+                  <path
+                    d="M26.462 7.456c0 1.060-0.859 1.919-1.919 1.919s-1.919-0.859-1.919-1.919c0-1.060 0.859-1.919 1.919-1.919s1.919 0.859 1.919 1.919z">
+                  </path>
+                </svg>
+
+              </a></li>
+            <li>
+              <a href="#">
+                <!-- Generated by IcoMoon.io -->
+                <svg width="32" height="32" viewBox="0 0 32 32">
+                  <title>facebook2</title>
+                  <path
+                    d="M29 0h-26c-1.65 0-3 1.35-3 3v26c0 1.65 1.35 3 3 3h13v-14h-4v-4h4v-2c0-3.306 2.694-6 6-6h4v4h-4c-1.1 0-2 0.9-2 2v2h6l-1 4h-5v14h9c1.65 0 3-1.35 3-3v-26c0-1.65-1.35-3-3-3z">
+                  </path>
+                </svg>
+
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <a href="#" class="footer__top-mail btn">CONTACT US</a>
+
+      </div>
+      <!-- end footer__top -->
+      <div class="footer__bottom">
+        <div class="footer__bottom-item">&copy;Copyright Rico group. All copyright and other intellectual property
+          rights
+          in
+          all
+          logos, designs, text, images and other
+          materials on this website are owned by Rico group or appear with permission of the relevant owner. 'Rico' is a
+          registered trade mark. All rights reserved.</div>
+        <a href="#" class="footer__bottom-link">Cookies and privacy </a>
+      </div>
+      <!-- end footer__bottom -->
+    </div>
+  </footer>
+  <!-- end footer -->
+  <div id="back_to_top" class="back-to-top">
+    <svg xmlns="http://www.w3.org/2000/svg" style="transform: rotate(270deg);" width="24" height="24"
+      viewBox="0 0 24 24">
+      <path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z" />
+    </svg>
+  </div>
+  <!-- end ufive_uptop -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
