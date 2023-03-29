@@ -1,13 +1,170 @@
-@media (max-width: 1px) {}
+@media (max-width: 1100px) {
+  .header__menu-list {
+    display: none;
+  }
 
-@media (max-width: 1px) {}
+  .header__nav-inner {
+    .btn {
+      display: none;
+    }
 
-@media (max-width: 1px) {}
+    .navbar {
+      display: block;
+    }
+  }
 
-@media (max-width: 1px) {}
+  .logo {
+    left: 70%;
+    right: 0;
+  }
 
-@media (max-width: 1px) {}
+  .news .slide-arrow {
+    top: unset;
+    bottom: 15px;
+    z-index: 5;
+  }
 
-@media (max-width: 1px) {}
+  .news .prev-arrow {
+    left: 5px;
 
-@media (max-width: 1px) {}
+  }
+
+  .news .next-arrow {
+    right: unset;
+    left: 35px;
+
+  }
+
+  .gallery {
+    .gallery-slide {
+      max-width: 696px;
+
+    }
+
+    .slick-arrow {
+      right: 0;
+    }
+
+    .slick-dots {
+      right: 0;
+    }
+  }
+
+
+
+}
+
+@media (max-width: 900px) {
+  .advanced__items {
+
+    // grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .advanced__item img {
+    height: 400px;
+
+  }
+}
+
+@media (max-width: 750px) {
+  .gallery {
+
+    .gallery-slide {
+      max-width: 450px;
+
+    }
+
+    .gallery-slide img {
+
+      height: 30rem;
+
+    }
+
+    .slick-next {
+      right: 40px;
+
+    }
+  }
+}
+
+
+@media (max-width: 650px) {
+  .container {
+    padding: 0 20px;
+
+  }
+
+  .advanced__items {
+
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .advanced__item img {
+    height: 500px;
+
+  }
+
+  .news-fade__info {
+    padding: 10px;
+    border-left: 20px solid #c4eebc;
+    border-bottom: 50px solid #c4eebc;
+    max-width: 360px;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .news-fade__info {
+
+    max-width: 280px;
+  }
+
+  .gallery {
+
+    .gallery-slide {
+      max-width: 350px;
+
+    }
+
+    .gallery-slide img {
+
+      height: 20rem;
+
+    }
+
+    .slick-arrow {
+      display: none;
+    }
+
+    .slick-active .gallery-slider__title {
+      margin-top: 0;
+      font-size: 24px;
+
+    }
+
+    .slick-active .gallery-slider__text {
+      padding: 10px;
+    }
+  }
+}
+
+
+@media (max-width: 390px) {
+  .news-fade__info {
+
+    max-width: 260px;
+  }
+}
+
+@media (max-width: 376px) {
+
+
+
+
+  .news-fade__info {
+
+    max-width: 230px;
+  }
+}

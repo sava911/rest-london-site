@@ -10,6 +10,10 @@
   &__top-item {
     display: flex;
     justify-content: space-between;
+
+    b {
+      padding-top: 10px;
+    }
   }
 
   &__top-icons {
@@ -18,6 +22,15 @@
       display: inline-block;
 
       margin-left: 20px;
+
+    }
+
+    svg {
+
+      &:hover,
+      &:focus {
+        background: $green;
+      }
     }
   }
 

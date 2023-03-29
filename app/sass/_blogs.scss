@@ -1,6 +1,6 @@
 .blogs {
-  padding-top: 40px;
-  margin-bottom: 40px;
+  // padding-top: 50px;
+  margin-bottom: 100px;
 
   &__title {
     padding-top: 40px;
@@ -13,7 +13,8 @@
   &__text {
     text-align: center;
     color: $wh;
-
+    max-width: 600px;
+    margin: 0 auto;
   }
 
   // .item {

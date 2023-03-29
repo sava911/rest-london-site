@@ -70,9 +70,17 @@ p {
   margin: 0;
 }
 
+figure {
+  all: unset;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
 input {
   all: unset;
+
   box-sizing: border-box;
+
 }
 
 button {
@@ -125,6 +133,7 @@ main {
   text-transform: uppercase;
   letter-spacing: 0.07rem;
   font-size: 40px;
+  line-height: 44px;
   @extend %rubik-500;
   text-align: center;
 }

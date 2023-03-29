@@ -51,7 +51,12 @@ $(function () {
       dots: true,
       // autoplay: true,
       slidesToShow: 1,
+
+
     });
+
+    // slider.slick("unslick");
+
 
   }
 
